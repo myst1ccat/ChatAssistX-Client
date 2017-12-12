@@ -24,14 +24,14 @@ if(typeof window.chat === 'undefined') {
     
     // 기본 채팅 스타일
     window.chat.config = {};
-    window.chat.config.platformIcon = true;
+    window.chat.config.platformIcon = false;
     window.chat.config.platform = "all";
     window.chat.config.animation = "fade";
     window.chat.config.chatFade = 0;
     window.chat.config.font = "Jeju Gothic";
-    window.chat.config.fontUsernameSize = 14;
+    window.chat.config.fontUsernameSize = 12;
     window.chat.config.fontUsernameColor = "255, 255, 255";
-    window.chat.config.fontChatSize = 16;
+    window.chat.config.fontChatSize = 14;
     window.chat.config.fontChatColor = "255, 255, 255";
     window.chat.config.backgroundColor = "255, 255, 255";
     window.chat.config.backgroundAlpha = 0;
