@@ -37,6 +37,22 @@ if(typeof window.chat === 'undefined') {
     window.chat.config.backgroundAlpha = 0;
     window.chat.config.chatBackgroundColor = "255, 255, 255";
     window.chat.config.chatBackgroundAlpha = 25;
+
+    // 기본 채팅 스타일
+    window.chat.config = {myst1c_cat};
+    window.chat.config.platformIcon = false;
+    window.chat.config.platform = "all";
+    window.chat.config.animation = "fade";
+    window.chat.config.chatFade = 0;
+    window.chat.config.font = "Jeju Gothic";
+    window.chat.config.fontUsernameSize = 16;
+    window.chat.config.fontUsernameColor = "255, 255, 255";
+    window.chat.config.fontChatSize = 18;
+    window.chat.config.fontChatColor = "255, 255, 255";
+    window.chat.config.backgroundColor = "255, 255, 255";
+    window.chat.config.backgroundAlpha = 0;
+    window.chat.config.chatBackgroundColor = "255, 255, 255";
+    window.chat.config.chatBackgroundAlpha = 25;
 }
 
 // 버전 번호
