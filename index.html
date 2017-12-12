@@ -11,7 +11,7 @@
         window.config = {};
         // 채널 아이디. 주소끝 ?preset=(프리셋아이디) 를 붙여 지정합니다.
         // 강제지정은 url.searchParams.get("preset") 을 "프리셋명" 으로 바꾸면 됩니다.
-        window.config.preset = url.searchParams.get("preset");
+        window.config.preset = url.searchParams.get("myst1c_cat");
         
         window.config.allowExternalSource = false; // 외부이미지([img 주소] 문법) 허용하려면 true로 변경
         window.config.allowEmoticon = true; // 디시콘 사용가능유무 사용금지로 바꾸려면 false로 변경
@@ -30,7 +30,7 @@
         
         // 스트리머 전용 명령어(~통계,~투표) 를 사용하기 위한 아이디 지정
         window.config.streamer = {
-            "twitch" : url.searchParams.get("twitch"),
+            "twitch" : url.searchParams.get("myst1c_cat"),
             "kakaopot" : url.searchParams.get("kakaopot"),
             "youtube" : url.searchParams.get("youtube")
         }
@@ -70,7 +70,7 @@
         
         // tapic 사용시 사용할 스타일
         window.chat.config = {};
-        window.chat.config.platformIcon = true;
+        window.chat.config.platformIcon = false;
         window.chat.config.platform = "all";
         window.chat.config.animation = "fade";
         window.chat.config.chatFade = 0;
