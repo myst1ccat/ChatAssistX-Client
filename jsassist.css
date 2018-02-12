@@ -1,11 +1,9 @@
-@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
-@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
-@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
-@import url(//fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
-@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
-@import url(//googledrive.com/host/0BxmAw3HA4YGCfkpJRUw0RGNraDFnVzRFdjhaQnRFQ3BzZ00tRFZobGlKcmprb1hiSUFvZkE/nanumbarunpenr.css);
-@import url(//googledrive.com/host/0BxmAw3HA4YGCfnE1U2tYVjN2UkVLWnEzaVdsWDRUZ3VFbmpJckF3UG56WkpLSUxKMXFaTlU/nanumbarunpenb.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 body {
     background: rgba(64, 80, 80, 0.0);
@@ -43,7 +41,7 @@ body {
 }
 
 .chat_text_nickname {
-    font-family: 'nanumbarunpenb', serif;
+    font-family: 'Jeju Gothic', serif;
     font-size: 14px;
     color: white;
     text-shadow: 0px 0px 4px #000000, 0px 0px 2px #000000;;
@@ -52,7 +50,7 @@ body {
 }
 
 .chat_text_message {
-    font-family: 'nanumbarunpenr', serif;
+    font-family: 'Jeju Gothic', serif;
     font-size: 16px;
     color: white;
     text-shadow: 0px 0px 4px #000000, 0px 0px 2px #000000,
