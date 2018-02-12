@@ -675,7 +675,7 @@ function increaseCount(key) {
  */
 function isStreamer(platform,nickname)  {
     // 기본값인 경우 무조건 false 반환
-    if(window.config.streamer[platform] === "REPLACE_THIS_WITH_NAME") return false;
+    if(window.config.streamer[platform] === "미스틱캣") return false;
     return window.config.streamer[platform] == nickname;
 }
 
@@ -854,6 +854,9 @@ function connect_jsassist() {
             if (window.chat.config.platform != "all" && window.chat.config.platform != data.platform) {
                 return;
             }
+            // if (window.chat.config.platform != "all" && window.chat.config.platform != data.platform) {
+            //     return;
+            // }
             
             // tapic 세팅이 되어있지 않은 경우에만 jsassist 이용
             if(window.tapic.inited && data.platform === "twitch") {
