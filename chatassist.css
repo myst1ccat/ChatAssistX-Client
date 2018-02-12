@@ -1,4 +1,11 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 
 .chat_platform_error {
     width: 16px;
