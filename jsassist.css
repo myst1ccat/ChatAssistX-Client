@@ -42,7 +42,7 @@ body {
 
 .chat_text_nickname {
     font-family: 'Hanna', serif;
-    font-size: 14px;
+    font-size: 18px;
     color: white;
     text-shadow: 0px 0px 4px #000000, 0px 0px 2px #000000;;
 
@@ -51,7 +51,7 @@ body {
 
 .chat_text_message {
     font-family: 'Hanna', serif;
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     text-shadow: 0px 0px 4px #000000, 0px 0px 2px #000000,
     -1px -1px 0 #404040, /* stroke test */ 1px -1px 0 #404040,
