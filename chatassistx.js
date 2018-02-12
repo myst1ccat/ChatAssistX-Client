@@ -28,7 +28,7 @@ if(typeof window.chat === 'undefined') {
     window.chat.config.platform = "all";
     window.chat.config.animation = "fade";
     window.chat.config.chatFade = 0;
-    window.chat.config.font = "Jeju Gothic";
+    window.chat.config.font = "nanumbarunpenr";
     window.chat.config.fontUsernameSize = 16;
     window.chat.config.fontUsernameColor = "255, 255, 255";
     window.chat.config.fontChatSize = 22;
