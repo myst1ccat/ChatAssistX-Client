@@ -675,7 +675,7 @@ function increaseCount(key) {
  */
 function isStreamer(platform,nickname)  {
     // 기본값인 경우 무조건 false 반환
-    if(window.config.streamer[platform] === "myst1c_cat") return false;
+    if(window.config.streamer[platform] === "미스틱캣") return false;
     return window.config.streamer[platform] == nickname;
 }
 
